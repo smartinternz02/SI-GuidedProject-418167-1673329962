@@ -1,4 +1,4 @@
-package com.hemlata.app;
+package com.swetha.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

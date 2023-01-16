@@ -1,10 +1,7 @@
-package com.hemlata.app.controller;
+package com.swetha.app.controller;
 
 import java.io.IOException;
-import java.sql.Date;
-import java.text.DateFormat;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Map;
@@ -12,22 +9,18 @@ import java.util.Spliterators;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hemlata.app.model.User;
-import com.hemlata.app.model.UserIp;
-import com.hemlata.app.repository.FlightRepo;
-import com.hemlata.app.repository.userRepo;
+import com.swetha.app.model.User;
+import com.swetha.app.model.UserIp;
+import com.swetha.app.repository.FlightRepo;
+import com.swetha.app.repository.userRepo;
 
 @Controller
 public class FlightController {

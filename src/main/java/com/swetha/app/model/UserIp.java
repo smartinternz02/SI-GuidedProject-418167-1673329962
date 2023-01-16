@@ -1,4 +1,4 @@
-package com.hemlata.app.model;
+package com.swetha.app.model;
 
 import java.util.Date;
 

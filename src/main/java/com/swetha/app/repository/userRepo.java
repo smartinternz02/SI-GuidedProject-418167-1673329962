@@ -1,10 +1,9 @@
-package com.hemlata.app.repository;
+package com.swetha.app.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.hemlata.app.model.User;
-import com.hemlata.app.model.UserIp;
+import com.swetha.app.model.User;
 
 @Repository
 public interface userRepo extends CrudRepository<User,Long> {
